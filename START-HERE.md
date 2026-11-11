@@ -5,7 +5,7 @@ This is a buildless static website. Upload these files to GitHub Pages; no Wix s
 ## What is included
 
 - Desktop reference layout, original text, eleven original photos, locally served Syne and Madefor Text fonts, original colors, image crops, borders, project cards, and form styling.
-- Original Wix banner retained because the request specified the exact visible reference. It is ordinary static markup and does not require Wix hosting.
+- Wix promotion banner removed. Top photo/title and Projects centered; all four service photos use equal, proportionally cropped frames without the old background boxes.
 - Independent scroll entrance effects. They recreate the observed reveals, but their timing/easing is approximate rather than a copy of Wix's animation engine.
 - Functional form integration for Formspree, with validation, pending/success/error states and a searchable country code selector.
 - All site images/fonts are local. Only submitting the contact form requires the external Formspree service. Email links open the visitor's mail application.
