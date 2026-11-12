@@ -1,0 +1,7 @@
+MOBILE VERSION 6
+
+Extract this ZIP. Upload the CONTENTS to the root of your existing GitHub repository and commit the changes. Do not upload the ZIP itself.
+
+The mobile update uses index.html and mobile.css. All desktop styles, project links, contact configuration, assets, and the jjstanbury.com CNAME are included.
+
+After GitHub finishes deploying, reload your website on your phone.

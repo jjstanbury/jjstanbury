@@ -1,3 +1,7 @@
+# V5: Direct project photo links
+
+Each of the first three project photos and its label is a standard HTML link to the supplied destination, opening in a new tab. JavaScript is not required. Jazz Trio/Quartet remains unlinked. Upload the files inside this ZIP into the existing repository root, then commit changes.
+
 # November 12 update — V4
 
 Upload the contents of this ZIP into the root of the existing GitHub repository. Include the assets folder: it contains two new higher-resolution photos. This package includes the existing jjstanbury.com CNAME and Formspree endpoint.

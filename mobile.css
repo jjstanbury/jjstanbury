@@ -1,0 +1,83 @@
+/* Phone/tablet layout. Desktop rules stay in styles.css. */
+@media (max-width: 900px){
+ html,body{min-width:0!important;width:100%;margin:0;padding:0}
+ body{overflow-x:hidden}
+ #SITE_CONTAINER,#main_MF,#site-root,#masterPage,#PAGES_CONTAINER,#SITE_PAGES,#SITE_PAGES_TRANSITION_GROUP,#wsiqk,#Containerwsiqk{width:100%!important;min-width:0!important;max-width:100%;margin:0!important;left:0!important}
+ [id^="comp-"]{min-width:0!important;max-width:100%;box-sizing:border-box}
+ [data-mesh-id]{display:block!important;position:static!important;width:auto!important;height:auto!important;min-height:0!important;grid-template-columns:none!important}
+ [data-mesh-id]>[id]{position:relative!important;left:auto!important;right:auto!important;top:auto!important;bottom:auto!important;margin:0!important;grid-area:auto!important;justify-self:auto!important;align-self:auto!important}
+ [data-mesh-id*="wedge"],#SITE_HEADER,#comp-m8obx6wo2{display:none!important}
+ .standalone-reveal{opacity:1!important;transform:none!important;transition:none!important}
+ #comp-m8obx6wi,#comp-m8obx6wn2,#comp-m8obx6wv7,#comp-muviequc,#comp-m8obx6xp3,#SITE_FOOTER{width:100%!important;min-width:0!important;margin:0!important;left:0!important}
+ #comp-m8obx6wi{padding:28px 20px 48px}
+ #comp-m8obx6wi9,#comp-m8obx6wj3{width:100%!important;margin:0!important;min-width:0!important}
+ [data-mesh-id="comp-m8obx6wj3inlineContent-gridContainer"]{display:flex!important;flex-direction:column;align-items:center;gap:18px}
+ #comp-m8obx6wk13{order:0;width:220px!important;height:338px!important;left:auto!important;transform:none!important;margin:0 auto!important}
+ #comp-m8obx6wk13>div,#img_comp-m8obx6wk13{width:100%!important;height:100%!important}
+ #comp-m8obx6wj7{order:1;width:auto!important;margin:0!important;text-align:center}
+ #comp-m8obx6wl12{display:none!important}
+ #comp-m8obx6wm{width:100%!important;margin:24px 0 0!important;left:0!important}
+ #comp-m8obx6wm .centered-main-title{white-space:normal;font-size:clamp(35px,9vw,64px);line-height:1.08;letter-spacing:-.035em;text-wrap:balance}
+ #comp-m8obx6wn2{padding:0 20px 48px}
+ [data-mesh-id="comp-m8obx6wn2inlineContent-gridContainer"]{display:flex!important;flex-direction:column;gap:28px}
+ #comp-m8obx6wo11{order:0;width:100%!important}
+ #comp-m8obx6wp19{order:1;width:100%!important;margin:0!important}
+ #comp-m8obx6wp19>.Ak0vpt{display:flex;flex-direction:column}
+ #comp-m8obx6wq1,#comp-m8obx6wr2{width:100%!important;flex:none!important;margin:0!important}
+ #comp-m8obx6wq6{width:min(100%,340px)!important;height:auto!important;aspect-ratio:3024/3804;margin:0 auto 28px!important}
+ #comp-m8obx6wq6>div,#img_comp-m8obx6wq6{width:100%!important;height:100%!important}
+ #comp-m8obx6ws2{width:100%!important;margin:0!important}
+ #comp-m8obx6ws2 p{font-size:18px!important;line-height:1.5!important}
+ #comp-m8obx6wo11 h2,.edited-services>h2,.edited-projects>h2,.edited-contact>h2{font-size:38px!important;line-height:1.12!important}
+ #comp-m8obx6wv7.edited-services{padding:0 20px 32px}
+ .edited-services>h2{margin:0 0 28px}
+ .service-row{display:flex;flex-direction:column;aspect-ratio:auto;gap:0;margin:0 0 30px!important}
+ .service-row .service-photo{order:0;width:100%;height:auto;aspect-ratio:643/372}
+ .service-row .service-copy{order:1;height:auto;padding:20px 0 0!important;width:100%}
+ .service-copy h3{font-size:25px;margin:0 0 12px}
+ .service-copy p{font-size:16px!important;line-height:1.55!important;margin-bottom:12px!important}
+ #comp-muviequc.edited-projects{padding:0 20px 48px}
+ .edited-projects>h2{margin:0 0 18px}
+ .edited-projects>p{line-height:1.5;margin-bottom:24px}
+ .project-gallery{grid-template-columns:minmax(0,340px);gap:18px;padding:24px 16px;width:100%}
+ .project-card,.project-card:last-child{grid-column:auto;width:100%;padding-bottom:0}
+ .project-card img{width:100%;height:auto;aspect-ratio:287/323;object-fit:cover}
+ .project-label{width:calc(100% - 24px);margin:-46px 0 0 24px;padding:14px;min-height:78px}
+ .project-label h3{font-size:20px}
+ .edited-projects>h2.coming-soon{font-size:40px!important;line-height:1.12;margin:44px auto 0;max-width:480px}
+ #comp-m8obx6xp3.edited-contact{padding:0 20px 44px}
+ .edited-contact>h2{margin:0 0 28px}
+ .contact-grid{grid-template-columns:minmax(0,1fr)}
+ .contact-form-column{padding:24px 0 0}
+ .contact-form-column>#comp-m8psdzqs{width:100%!important;max-width:none;margin:0!important}
+ #contact-form{width:100%;min-width:0}
+ #contact-form fieldset{min-width:0}
+ #contact-form input,#contact-form textarea{font-size:16px!important}
+ #contact-form input{min-height:44px}
+ #contact-form [type="submit"]{min-height:48px;width:100%}
+ #phone-picker{max-width:calc(100vw - 56px);width:280px}
+ #SITE_FOOTER.edited-footer{padding:0 20px 32px}
+ .footer-content{grid-template-columns:minmax(0,1fr);min-height:0;padding:32px 0 0;gap:24px;text-align:center}
+ .footer-title{font-size:32px;line-height:1.12;max-width:340px;justify-self:center}
+ .footer-contact{font-size:16px;line-height:24px}.footer-contact p+p{margin-top:10px}
+}
+@media (min-width:600px) and (max-width:900px){
+ .project-gallery{grid-template-columns:repeat(2,minmax(0,306px));gap:24px}
+ #comp-m8obx6wi,#comp-m8obx6wn2,#comp-m8obx6wv7.edited-services,#comp-muviequc.edited-projects,#comp-m8obx6xp3.edited-contact{padding-left:32px;padding-right:32px}
+}
+@media(max-width:900px){
+#BACKGROUND_GROUP,#BACKGROUND_GROUP_TRANSITION_GROUP,#pageBackground_wsiqk,#bgLayers_pageBackground_wsiqk,#bgMedia_pageBackground_wsiqk,.pTvOx2{width:100%!important;min-width:0!important;left:0!important;margin-left:0!important}
+}
+@media(max-width:900px){
+#contact-form *{min-width:0!important;box-sizing:border-box}
+#contact-form .ckHV4G,#contact-form .htcADB{grid-template-columns:repeat(12,minmax(0,1fr))!important;max-width:100%}
+#contact-form input,#contact-form textarea{max-width:100%;width:100%!important}
+}
+@media(max-width:900px){
+#contact-form .ckHV4G{display:flex!important;flex-direction:column}
+#contact-form div{max-width:100%}
+}
+@media(max-width:900px){
+#contact-form .htcADB{grid-template-columns:minmax(0,1fr)!important;column-gap:0!important}
+#contact-form .htcADB>div{grid-column:1 / -1!important;width:100%!important}
+}
