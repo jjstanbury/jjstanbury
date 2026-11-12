@@ -40,3 +40,6 @@ trigger.addEventListener('click',async()=>{
 function closePicker(){picker?.remove();picker=null;trigger.setAttribute('aria-expanded','false');trigger.focus();}
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&picker)closePicker();});
 document.addEventListener('click',e=>{if(picker&&!picker.contains(e.target)&&!trigger.contains(e.target))closePicker();});
+
+// Make each complete project card clickable once its real destination is configured.
+document.querySelectorAll('.project-card').forEach(card=>{const name=card.querySelector('h3')?.textContent.trim();const url=window.PROJECT_LINKS?.[name];if(!url)return;try{const parsed=new URL(url);if(!['https:','http:'].includes(parsed.protocol))return;const a=document.createElement('a');a.href=parsed.href;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',name+' — open project');while(card.firstChild)a.append(card.firstChild);card.append(a);}catch{}});

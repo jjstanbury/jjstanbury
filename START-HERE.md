@@ -1,3 +1,11 @@
+# November 12 update — V4
+
+Upload the contents of this ZIP into the root of the existing GitHub repository. Include the assets folder: it contains two new higher-resolution photos. This package includes the existing jjstanbury.com CNAME and Formspree endpoint.
+
+Completed: aligned equal service-photo rows; Other copy fits; Send message button; full contact divider with group photo touching below; footer alignment; larger About photo; higher-resolution top and About photos.
+
+Clear Fields, Detroit Soul Revue, and Coconut Superfreak now open the supplied external pages in a new tab when their cards are clicked. Jazz Trio/Quartet is intentionally unlinked. These destinations are stored in config.js under window.PROJECT_LINKS.
+
 # James Stanbury Music — desktop website
 
 This is a buildless static website. Upload these files to GitHub Pages; no Wix subscription, Node installation, or build command is needed.

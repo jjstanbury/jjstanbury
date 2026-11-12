@@ -50,5 +50,13 @@
   {
     "file": "assets/madefor.woff2",
     "source": "https://static.parastorage.com/fonts/v2/f73e760d-c6b3-4659-9a8c-9ce1d76c1173/madefor-text.var.original.woff2"
+  },
+  {
+    "file": "assets/hero-sharp.png",
+    "source": "https://static.wixstatic.com/media/1967d2_4ed6bdbb28fb4487915f4cbf5101640b~mv2.png/v1/crop/x_884,y_0,w_1353,h_2080/fill/w_999,h_1536,al_c,q_95/hero.png"
+  },
+  {
+    "file": "assets/about-sharp.png",
+    "source": "https://static.wixstatic.com/media/1967d2_f3994eebfa404468b6b6051f50f5c29d~mv2.png/v1/crop/x_0,y_114,w_3024,h_3804/fill/w_1020,h_1284,al_c,q_95/about.png"
   }
 ]
